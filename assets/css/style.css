@@ -30,6 +30,12 @@ div#hero {
     padding: 2rem 0rem;
     color: #e9ecef;
 }
+#calcoast-divider {
+    display: inline-block;
+    background-color: #08ADEF;
+    padding: 2rem 0rem;
+    color: #e9ecef;
+}
 
 #hero-sub-divider {
     display: inline-block;

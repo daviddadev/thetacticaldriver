@@ -3,10 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-#bonus-link {
-    color: #ff7f50;
-}
-
 #bonus-lyft-link {
     color: #EA0A8C;
 }
@@ -87,11 +83,11 @@ span.purple {
     font-weight: bold;
 }
 
-span.coral {
+span.outline {
     padding: 3px 3px;
-    color: #ff7f50;
+    color: #008080;
     font-weight: bold;
-    border: 1px solid #ff7f50;
+    border: 1px solid #008080;
     border-radius: 5px;
 }
 

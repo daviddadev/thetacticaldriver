@@ -23,14 +23,14 @@ div#hero {
 #red-divider {
     display: inline-block;
     background-color: #dc3545;
-    padding: 2rem 4rem;
+    padding: 2rem 1rem;
     color: #e9ecef;
 }
 
 #hero-divider {
     display: inline-block;
     background-color: #B01AA7;
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
     color: #e9ecef;
 }
 

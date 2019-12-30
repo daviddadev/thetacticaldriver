@@ -7,13 +7,24 @@ body {
     margin-bottom: 0rem !important;
 }
 
-.jumbotron em {
+.jumbotron h1 em {
     color: #008080;
+}
+
+.jumbotron h2 em {
+    color: #628080;
 }
 
 div#hero {
     text-align: center;
     margin-top: 55px;
+}
+
+#red-divider {
+    display: inline-block;
+    background-color: #dc3545;
+    padding: 2rem 0rem;
+    color: #e9ecef;
 }
 
 #hero-divider {
@@ -82,9 +93,9 @@ span.purple {
 
 span.outline {
     padding: 3px 3px;
-    color: #008080;
+    color: #628080;
     font-weight: bold;
-    border: 1px solid #008080;
+    border: 1px solid #628080;
     border-radius: 5px;
 }
 

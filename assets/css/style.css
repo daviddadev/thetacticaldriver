@@ -69,6 +69,18 @@ hr.hr-div {
     color: #e9ecef;
 }
 
+/* Block around the gigs on mobile */
+@media (max-width: 576px) {
+    .gig-block {
+        border: #D3D3D3 solid 1px;
+        padding-bottom: 15px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
 .gig-section {
     background-color: #fff;
 }
@@ -78,15 +90,21 @@ hr.hr-div {
 }
 
 .site-gig-section {
-    /* text-align: center; */
     padding-bottom: 70px;
     padding-top: 70px;
 }
 
-#why .item i {
-    font-size: 42px;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+/* Image media queria for responsive sizing */
+@media (max-width: 576px) {
+    .img-gig {
+        margin-top: 30px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gig-header {
+    }
 }
 
 .dark-section {
